@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Приглашение от блогера</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="mainpage.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" rel="stylesheet" />
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" rel="stylesheet" />
+        <script type="text/javascript">
+        $(document).on('ready', function () {
+            $(".regular").slick({
+                rows: 2,
+                dots: false,
+                infinite: true,
+                slidesToShow: 4,
+                slidesToScroll: 4
+            });
+        });
+        </script>
+    </head>
+    <body>
+        <header>
+            <a class="logmain" href="auth_page.html">Войти</a>
+        </header>
+        <div class="box-size-view box-size-center main_text_container">
+            <div class="box-size-center box-direction-column main_page_disp">
+            <p class="logo_main">SkillPass</p>
+            <p class="text_1_main">За два дня вы сможете поработать над собственными задачами.
+            </p>
+            <p class="text_2_main">7 дней бесплатно</p>
+            <a class="button_main" href="">
+                <div class="button_text">
+                    НАЧНИТЕ СВОЮ БЕСПЛАТНУЮ ПРОБНУЮ ВЕРСИЮ
+                </div>
+            </a>
+            </div>
+        </div>
+        <div class="box-size-view">
+            <div class=" blogger_container">
+            <img class="blogger_img" src="blogger.jpg">
+            <div class="box-size-column blogger_text_container">
+            <p class="blogger_name">
+                Janifer lopez
+            </p>
+            <p class="blogger_header">
+                Я занимаюсь темками
+            </p>
+            <p class="blogger_description">
+                “With BlockBox, we have seen 30% revenue growth quarter over quarter and now we’re rolling it out across the entire customer lifecycle.”
+            </p>
+            <div class="blogger_social_media">
+                <a href="https://facebook.com">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" fill="none">
+                    <circle cx="30" cy="30" r="30" fill="#475993"/>
+                    <path d="M33.5353 19.9812H36V15.2113C35.5748 15.1462 34.1124 15 32.4093 15C28.8557 15 26.4214 17.4837 26.4214 22.0487V26.25H22.5V31.5825H26.4214V45H31.2293V31.5837H34.9921L35.5894 26.2513H31.2281V22.5775C31.2293 21.0362 31.6027 19.9812 33.5353 19.9812Z" fill="white"/>
+                    </svg>
+                </a>
+                <a href="https://instagram.com">
+                <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" fill="none">
+                    <circle cx="30" cy="30" r="30" fill="url(#paint0_linear)"/>
+                    <g clip-path="url(#clip0)">
+                    <path d="M44.9718 23.3791C44.9051 21.8648 44.6602 20.8237 44.3094 19.9216C43.9475 18.964 43.3908 18.1067 42.6613 17.394C41.9487 16.6702 41.0857 16.1078 40.1392 15.7516C39.2319 15.4008 38.1963 15.1559 36.6819 15.0892C35.1563 15.0167 34.672 15 30.8026 15C26.9332 15 26.4488 15.0167 24.9289 15.0835C23.4146 15.1503 22.3735 15.3954 21.4716 15.746C20.5138 16.1078 19.6565 16.6646 18.9438 17.394C18.2201 18.1067 17.6579 18.9697 17.3014 19.9161C16.9506 20.8237 16.7057 21.8591 16.639 23.3734C16.5666 24.899 16.5498 25.3834 16.5498 29.2528C16.5498 33.1222 16.5666 33.6065 16.6333 35.1265C16.7001 36.6408 16.9452 37.6819 17.296 38.584C17.6579 39.5416 18.2201 40.3989 18.9438 41.1115C19.6565 41.8353 20.5195 42.3977 21.4659 42.754C22.3735 43.1048 23.4089 43.3496 24.9234 43.4164C26.4432 43.4834 26.9277 43.4999 30.7971 43.4999C34.6665 43.4999 35.1509 43.4834 36.6708 43.4164C38.1852 43.3496 39.2262 43.1048 40.1281 42.754C42.0435 42.0134 43.5578 40.4991 44.2983 38.584C44.6489 37.6764 44.894 36.6408 44.9608 35.1265C45.0275 33.6065 45.0443 33.1222 45.0443 29.2528C45.0443 25.3834 45.0386 24.899 44.9718 23.3791ZM42.4054 35.0151C42.344 36.407 42.1102 37.1586 41.9154 37.6597C41.4365 38.9013 40.4511 39.8867 39.2095 40.3656C38.7084 40.5605 37.9514 40.7942 36.5649 40.8554C35.0617 40.9223 34.6109 40.9389 30.8082 40.9389C27.0056 40.9389 26.5491 40.9223 25.0513 40.8554C23.6594 40.7942 22.9078 40.5605 22.4068 40.3656C21.7889 40.1372 21.2265 39.7753 20.77 39.3021C20.2968 38.84 19.9349 38.2832 19.7065 37.6654C19.5117 37.1643 19.2779 36.407 19.2168 35.0208C19.1498 33.5176 19.1333 33.0665 19.1333 29.2639C19.1333 25.4612 19.1498 25.0047 19.2168 23.5072C19.2779 22.1153 19.5117 21.3637 19.7065 20.8626C19.9349 20.2445 20.2968 19.6823 20.7757 19.2256C21.2376 18.7524 21.7943 18.3905 22.4124 18.1624C22.9135 17.9675 23.6708 17.7337 25.057 17.6724C26.5602 17.6056 27.0112 17.5889 30.8137 17.5889C34.622 17.5889 35.0728 17.6056 36.5706 17.6724C37.9625 17.7337 38.7141 17.9675 39.2151 18.1624C39.833 18.3905 40.3954 18.7524 40.8519 19.2256C41.3251 19.6878 41.687 20.2445 41.9154 20.8626C42.1102 21.3637 42.344 22.1207 42.4054 23.5072C42.4721 25.0104 42.4889 25.4612 42.4889 29.2639C42.4889 33.0665 42.4721 33.5119 42.4054 35.0151Z" fill="white"/>
+                    <path d="M30.8032 21.9316C26.7613 21.9316 23.4819 25.2108 23.4819 29.2529C23.4819 33.295 26.7613 36.5742 30.8032 36.5742C34.8453 36.5742 38.1244 33.295 38.1244 29.2529C38.1244 25.2108 34.8453 21.9316 30.8032 21.9316ZM30.8032 34.002C28.181 34.002 26.0541 31.8753 26.0541 29.2529C26.0541 26.6305 28.181 24.5038 30.8032 24.5038C33.4256 24.5038 35.5523 26.6305 35.5523 29.2529C35.5523 31.8753 33.4256 34.002 30.8032 34.002Z" fill="white"/>
+                    <path d="M40.1232 21.6428C40.1232 22.5866 39.3579 23.352 38.4138 23.352C37.4699 23.352 36.7046 22.5866 36.7046 21.6428C36.7046 20.6987 37.4699 19.9336 38.4138 19.9336C39.3579 19.9336 40.1232 20.6987 40.1232 21.6428Z" fill="white"/>
+                    </g>
+                    <defs>
+                    <linearGradient id="paint0_linear" x1="12" y1="54" x2="52.2" y2="3.6" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#FFD754"/>
+                    <stop offset="0.317708" stop-color="#FF8246"/>
+                    <stop offset="0.609375" stop-color="#F44F53"/>
+                    <stop offset="0.932292" stop-color="#CA38A6"/>
+                    </linearGradient>
+                    <clipPath id="clip0">
+                    <rect width="28.5" height="28.5" fill="white" transform="translate(16.5 15)"/>
+                    </clipPath>
+                    </defs>
+                    </svg>
+                </a>
+                <a href="https://vk.com">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" fill="none">
+                        <circle cx="30" cy="30" r="30" fill="#4D76A1"/>
+                        <path d="M38.1604 31.4616C37.7482 30.8841 37.8661 30.6271 38.1604 30.1109C38.1657 30.105 41.569 24.8887 41.9197 23.1196L41.9218 23.1185C42.0961 22.4738 41.9218 22 41.0792 22H38.2911C37.5813 22 37.2541 22.4066 37.0788 22.8615C37.0788 22.8615 35.6592 26.6306 33.651 29.0738C33.0029 29.7797 32.7032 30.006 32.3494 30.006C32.1752 30.006 31.9042 29.7797 31.9042 29.1351V23.1185C31.9042 22.3453 31.7055 22 31.1179 22H26.7339C26.2887 22 26.0241 22.3606 26.0241 22.6965C26.0241 23.4296 27.0282 23.5981 27.1324 25.6606V30.1357C27.1324 31.1163 26.9719 31.2966 26.616 31.2966C25.6682 31.2966 23.3678 27.5122 22.0045 23.1809C21.7294 22.3406 21.4605 22.0012 20.7454 22.0012H17.9563C17.1604 22.0012 17 22.4078 17 22.8627C17 23.6665 17.9478 27.663 21.4074 32.943C23.7131 36.5471 26.9602 38.5 29.9141 38.5C31.6896 38.5 31.9063 38.0663 31.9063 37.3203C31.9063 33.8765 31.7459 33.5512 32.6352 33.5512C33.0475 33.5512 33.7573 33.7775 35.4148 35.5159C37.3093 37.5772 37.6207 38.5 38.6811 38.5H41.4692C42.2639 38.5 42.6666 38.0663 42.435 37.2106C41.9048 35.411 38.3219 31.7091 38.1604 31.4616Z" fill="white"/>
+                        </svg>
+                </a>
+            </div>
+        </div>
+        </div>
+        <p class="blogger_course">
+            Курсы этого блогера
+        </p>
+        <div class="blogger_course_choose">
+            <div class="course_container">
+            <img class="img_course_size" src="lession2.png">
+            <p class="course_img_text">Название курса</p>
+            </div>
+            <div class="course_container">
+            <img class="img_course_size" src="lession2.png">
+            <p class="course_img_text">Название курса</p>
+            </div>
+            <div class="course_container">
+            <img class="img_course_size" src="lession2.png">
+            <p class="course_img_text">Название курса</p>
+                </div>
+        </div>
+        </div>
+        <div class="box-size-view box-size-center filter_container box-direction-column">
+        <div class="box-select">
+            <div class="category-bar box-direction-row box-size-center">
+                <div class="category-active" href="#">Сексология</div>
+                <a href="#">Как найти свой стиль</a>
+                <a href="#">Мейкап</a>
+                <a href="#">Муз инструменты</a>
+                <a href="#">Вокал</a>
+                <a href="#">Спорт</a>
+                <a href="#">Уход за</a>
+                <a href="#">Вокал</a>
+                <a href="#">Спорт</a>
+                <a href="#">Муз инструменты</a>
+                <a href="#">Инсталогия</a>
+                <a href="#">Выпечка</a>
+                <a href="#">Пикап</a>
+                <a href="#">Танцы</a>
+                <a href="#">Иностранные языки</a>
+                <a href="#">Подделки своими руками</a>
+                <a href="#">Вокал</a>
+                <a href="#">Спорт</a>
+                <a href="#">Уход за</a>
+                <a href="#">Вокал</a>
+                <a href="#">Спорт</a>
+                <a href="#">Муз инструменты</a>
+                <a href="#">Инсталогия</a>
+                <a href="#">Выпечка</a>
+                <a href="#">Пикап</a>
+                <a href="#">Танцы</a>
+                <a href="#">Иностранные языки</a>
+            </div>
+        </div>
+            <div class="blogger_course_choose">
+            <div class="course_container_all">
+            <img class="img_course_size_all" src="lession2.png">
+            <p class="course_img_text_all">Название курса</p>
+            <p class="course_img_small_all">Название курса</p>
+            </div>
+            <div class="course_container_all">
+            <img class="img_course_size_all" src="lession2.png">
+            <p class="course_img_text_all">Название курса</p>
+            <p class="course_img_small_all">Название курса</p>
+            </div>
+            <div class="course_container_all">
+            <img class="img_course_size_all" src="lession2.png">
+            <p class="course_img_text_all">Название курса</p>
+            <p class="course_img_small_all">Название курса</p>
+            </div>
+            <div class="course_container_all">
+            <img class="img_course_size_all" src="lession2.png">
+            <p class="course_img_text_all">Название курса</p>
+            <p class="course_img_small_all">Название курса</p>
+            </div>
+            <div class="course_container_all">
+            <img class="img_course_size_all" src="lession2.png">
+            <p class="course_img_text_all">Название курса</p>
+            <p class="course_img_small_all">Название курса</p>
+            </div>
+            <div class="course_container_all">
+            <img class="img_course_size_all" src="lession2.png">
+            <p class="course_img_text_all">Название курса</p>
+            <p class="course_img_small_all">Название курса</p>
+            </div> 
+        </div> 
+        <a href="" class="button_courses">
+                Все курсы
+        </a>
+        </div> 
+        <div class="box-size-center">
+            <div class="you-get-container">
+                <img class="you-get-img" src="you-get.jpg">
+                <div class="box-size-column you-get-size-containter">
+                <p class="you-get-header">
+                    Ты<span class="you-get-header-color"> получишь</span>
+                </p>
+                <p class="you-get-text">
+                    Вы освоите новую специальность, заговорите на иностранном языке и будете получать удовольствие от того, чем занимаетесь — каждый.
+                </p>
+            </div>
+            </div>
+        </div>
+            <div class="box-size-column">
+            <p class="prepod-text">Наши<span class="prepod-color"> преподаватели</span></p>
+            <div class="wrapper">
+              <div class="regular">
+                <div class="background-carousel"></div>
+                <div class="background-carousel"></div>
+                <div class="background-carousel"></div>
+                <div class="background-carousel"></div>
+                <div class="background-carousel"></div>
+                <div class="background-carousel"></div>
+                <div class="background-carousel"></div>
+                <div class="background-carousel"></div>
+                <div class="background-carousel"></div>
+                <div class="background-carousel"></div>
+                <div class="background-carousel"></div>
+                <div class="background-carousel"></div>
+              </div>
+              </div>
+        <div class="day-offer">
+            <p class="day-offer-text">
+                3 дня доступа ко всем занятиям
+            </p>
+            <a class="day-offer-button" href="">
+                Попоробовать бесплатно
+            </a>
+            </div>
+        </div>
+        <div class="box-size-view box-size-center filter_container box-direction-column">
+            <div class="social-flex">
+            <img class="img-flex1" src="instagram.png">
+            <img class="img-flex" src="tiktok.png">
+            </div>
+        </div>
+        <footer class="site-footer">
+            <div class = "footer-container">
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <div class="text-footer-1">
+                            Унивеситет дистанционного образования
+                        </div>
+                    </div>
+                    <div class="grid-item inner-grid-container">   
+                        <div class="grid-item-colunm"><a class="h1-grid-footer" href="">Меню</a></div>
+                        <div class="grid-item-colunm"><a class="h1-grid-footer" href="">Меню</a></div>
+                        <div class="grid-item-colunm"><a class="h1-grid-footer" href="">Меню</a></div>
+                        <div class="grid-item-colunm"><a href="">Меню</a></div>
+                        <div class="grid-item-colunm"><a href="">Меню</a></div>
+                        <div class="grid-item-colunm"><a href="">Меню</a></div>
+                        <div class="grid-item-colunm"><a href="">Меню</a></div>
+                        <div class="grid-item-colunm"><a href="">Меню</a></div>
+                        <div class="grid-item-colunm"><a href="">Меню</a></div>
+                        <div class="grid-item-colunm"><a href="">Меню</a></div>
+                        <div class="grid-item-colunm"><a href="">Меню</a></div>
+                        <div class="grid-item-colunm"><a href="">Меню</a></div>
+
+                    </div>
+                    <div class="grid-item">
+                        <div class = "social-buttons">
+                            <a href= "https://facebook.com">
+                                <svg width="12" height="25" viewBox="0 0 12 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M9.80918 4.13051H12V0.314508C11.622 0.262508 10.3221 0.145508 8.80827 0.145508C5.64953 0.145508 3.48571 2.13251 3.48571 5.78451V9.14551H0V13.4115H3.48571V24.1455H7.75935V13.4125H11.1041L11.635 9.14651H7.75835V6.20751C7.75935 4.97451 8.09133 4.13051 9.80918 4.13051Z" fill="white"/>
+                                </svg>  
+                            </a>
+                            <a href= "https://instagram.com">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="23" height="24" viewBox="0 0 23 24" fill="none">
+                                <path d="M21.963 6.90757C21.9123 5.68549 21.7266 4.84532 21.4606 4.11731C21.1862 3.34453 20.764 2.65267 20.2109 2.07753C19.6704 1.49343 19.016 1.03956 18.2983 0.752072C17.6103 0.468973 16.8249 0.271349 15.6766 0.217467C14.5197 0.159022 14.1524 0.145508 11.2182 0.145508C8.284 0.145508 7.91673 0.159022 6.76412 0.212904C5.61579 0.266785 4.82633 0.464586 4.14241 0.747508C3.41612 1.03956 2.76601 1.48886 2.22557 2.07753C1.67673 2.65267 1.25041 3.3491 0.980113 4.11292C0.7141 4.84532 0.528402 5.68093 0.477773 6.90301C0.422855 8.13421 0.410156 8.52507 0.410156 11.6478C0.410156 14.7704 0.422855 15.1613 0.473485 16.3879C0.524115 17.61 0.709977 18.4502 0.97599 19.1782C1.25041 19.951 1.67673 20.6428 2.22557 21.218C2.76601 21.8021 3.4204 22.2559 4.13813 22.5434C4.82633 22.8265 5.6115 23.0242 6.75999 23.078C7.91244 23.1321 8.27988 23.1454 11.2141 23.1454C14.1483 23.1454 14.5156 23.1321 15.6682 23.078C16.8165 23.0242 17.606 22.8265 18.2899 22.5434C19.7423 21.9458 20.8907 20.7237 21.4522 19.1782C21.7181 18.4458 21.9039 17.61 21.9545 16.3879C22.0052 15.1613 22.0179 14.7704 22.0179 11.6478C22.0179 8.52507 22.0136 8.13421 21.963 6.90757ZM20.0168 16.2981C19.9703 17.4213 19.793 18.0279 19.6452 18.4323C19.282 19.4343 18.5348 20.2295 17.5933 20.616C17.2133 20.7732 16.6392 20.9619 15.5879 21.0112C14.448 21.0653 14.1061 21.0786 11.2225 21.0786C8.33892 21.0786 7.99275 21.0653 6.85696 21.0112C5.80149 20.9619 5.23153 20.7732 4.85156 20.616C4.38303 20.4317 3.95655 20.1396 3.61039 19.7577C3.25153 19.3848 2.9771 18.9355 2.80394 18.4368C2.65617 18.0325 2.47889 17.4213 2.43255 16.3026C2.38175 15.0895 2.36922 14.7255 2.36922 11.6567C2.36922 8.58791 2.38175 8.21951 2.43255 7.01095C2.47889 5.88768 2.65617 5.28112 2.80394 4.87674C2.9771 4.37794 3.25153 3.92425 3.61468 3.55567C3.96496 3.17376 4.38715 2.88171 4.85585 2.6976C5.23582 2.54035 5.81007 2.35167 6.86125 2.30218C8.00116 2.2483 8.3432 2.23478 11.2266 2.23478C14.1145 2.23478 14.4564 2.2483 15.5922 2.30218C16.6476 2.35167 17.2176 2.54035 17.5976 2.6976C18.0661 2.88171 18.4926 3.17376 18.8387 3.55567C19.1976 3.92863 19.472 4.37794 19.6452 4.87674C19.793 5.28112 19.9703 5.89207 20.0168 7.01095C20.0674 8.22407 20.0801 8.58791 20.0801 11.6567C20.0801 14.7255 20.0674 15.0849 20.0168 16.2981Z" fill="white"/>
+                                <path d="M11.2183 5.73926C8.1533 5.73926 5.6665 8.3856 5.6665 11.6476C5.6665 14.9097 8.1533 17.556 11.2183 17.556C14.2835 17.556 16.7701 14.9097 16.7701 11.6476C16.7701 8.3856 14.2835 5.73926 11.2183 5.73926ZM11.2183 15.4803C9.22989 15.4803 7.61699 13.7639 7.61699 11.6476C7.61699 9.53134 9.22989 7.81502 11.2183 7.81502C13.2069 7.81502 14.8196 9.53134 14.8196 11.6476C14.8196 13.7639 13.2069 15.4803 11.2183 15.4803Z" fill="white"/>
+                                <path d="M18.2852 5.5058C18.2852 6.26752 17.7049 6.88514 16.989 6.88514C16.2732 6.88514 15.6929 6.26752 15.6929 5.5058C15.6929 4.74391 16.2732 4.12646 16.989 4.12646C17.7049 4.12646 18.2852 4.74391 18.2852 5.5058Z" fill="white"/>
+                                </svg>
+                            </a>
+                            <a class="vk-footer" href= "https://vk.com">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="21" height="14" viewBox="0 0 21 14" fill="none">
+                                <path d="M17.4262 7.60008C17.0867 7.14508 17.1838 6.94265 17.4262 6.53594C17.4306 6.53129 20.2333 2.42144 20.5221 1.02765L20.5238 1.02672C20.6673 0.518793 20.5238 0.145508 19.8299 0.145508H17.5339C16.9493 0.145508 16.6798 0.465865 16.5354 0.824293C16.5354 0.824293 15.3664 3.79386 13.7126 5.71879C13.1788 6.27501 12.9321 6.45329 12.6407 6.45329C12.4972 6.45329 12.2741 6.27501 12.2741 5.76708V1.02672C12.2741 0.417579 12.1104 0.145508 11.6265 0.145508H8.01615C7.64952 0.145508 7.43163 0.429651 7.43163 0.694294C7.43163 1.27187 8.25854 1.40465 8.34429 3.02965V6.55544C8.34429 7.32801 8.21216 7.47008 7.91902 7.47008C7.1385 7.47008 5.24406 4.48844 4.12139 1.07594C3.89476 0.413865 3.67338 0.146436 3.08448 0.146436H0.787527C0.13213 0.146436 0 0.466793 0 0.825222C0 1.45851 0.780527 4.60729 3.62963 8.76729C5.52844 11.6069 8.20253 13.1455 10.6351 13.1455C12.0973 13.1455 12.2758 12.8038 12.2758 12.216C12.2758 9.50272 12.1437 9.24644 12.8761 9.24644C13.2156 9.24644 13.8001 9.42472 15.1652 10.7944C16.7253 12.4184 16.9817 13.1455 17.855 13.1455H20.1511C20.8056 13.1455 21.1372 12.8038 20.9465 12.1297C20.5098 10.7117 17.5592 7.79508 17.4262 7.60008Z" fill="white"/>
+                                </svg>
+                            </a>
+                            <a href= "https://telegram.org">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
+                                    <path d="M7.45544 11.3496L7.14115 16.096C7.59082 16.096 7.78558 15.8886 8.01912 15.6396L10.1274 13.4763L14.4959 16.9112C15.2971 17.3906 15.8616 17.1381 16.0777 16.1198L18.9452 1.69369L18.946 1.69284C19.2001 0.421251 18.5177 -0.0759964 17.7371 0.235952L0.882079 7.16427C-0.268241 7.64366 -0.250824 8.33216 0.686532 8.64411L4.99568 10.0832L15.005 3.35884C15.476 3.02394 15.9043 3.20924 15.552 3.54414L7.45544 11.3496Z" fill="white"/>
+                                    </svg>
+                            </a>
+                        </div>
+                    </div>   
+                </div>
+                <hr>
+                <div class="offer-text">
+                    <a class="text-footer-fix" href="">Договор оферты</a>
+                    <a class="text-footer-fix" href="">Оплата</a>
+                    <a class="text-footer-fix" href="">Политика конфиденциальности</a>
+                    <p class="text-company-name">© Название, 2021</p></div>
+            </div>
+        </footer>
+    </body>
+<style>
+body,a ,p, img, div, header, footer {
+    font-family: Futura PT;
+    margin: 0;
+}
+.logmain {
+    display: block;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    position: absolute;
+    padding-top: 76px;
+    padding-right: 43px;
+    left: 87%;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.logmain:link, .logmain:active, .logmain:visited {
+    color: #fff;
+}
+.logmain:hover {
+    color: #cccccc;
+}
+
+.box-size-view {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.box-size-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box-size-right {
+    display: flex;
+    align-items: right;
+    justify-content: right;
+}
+.box-direction-column {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.box-direction-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.main_text_container {
+    width: 100%;
+    height: 100vh;
+    background: url("cover.jpg") no-repeat;
+    background-size: cover;
+}
+.main_page_disp {
+    margin: 20% 45% 20% 45%;
+    z-index: 99999;
+}
+.button_main {
+    width: 508px;
+    height: 48px;
+    margin: 20px;
+    align-items: center;
+    background: linear-gradient(90deg, #E44B01 0%, #E34A00 100%);
+    border-radius: 10px;
+    border: none;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    text-decoration: none;
+}
+.button_main:hover {
+    box-shadow: 0 0px 15px #E34A00;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
+.button_text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.logo_main {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 123px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.text_1_main {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 125%;  
+    text-align: center;
+    color: #fff;
+    margin: auto;
+}
+.text_2_main {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 53px;
+    text-align: center;
+    color: #fff;
+    margin: 40px 0 0 0;
+}
+.blogger_container {
+    width: 100%;
+    display: grid;
+    gap: 76px;
+    grid-auto-flow: column;
+}
+.blogger_text_container {
+    width: 570px;
+    height: 470px;
+    margin-top: 52px;
+    margin-right: 200px;
+}
+.blogger_img {
+    margin-left: 200px;
+    margin-top: 52px;
+    border-radius: 24px;
+}
+.blogger_name {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: left;
+    letter-spacing: 0.1em;
+    color: #000000;
+}
+.blogger_header {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 150%;
+    color: #000000;
+    margin-top: 14px;
+}
+.blogger_description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: left;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-top: 5px;
+}
+.blogger_social_media {
+    margin-top: 68px;
+}
+.blogger_social_media a {
+    text-decoration:none;
+}
+.blogger_social_media svg {
+    margin-right: 37px;
+}
+.blogger_course {
+    margin-left: 200px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 46px;
+    color: #000000;
+}
+.blogger_course_choose {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin:56px 200px 21px 200px;
+}
+.course_container {
+    padding-right: 50px;
+}
+.img_course_size {
+    width: 450px;
+    height: 230px;
+    border-radius: 20px;
+    user-select: none;
+}
+.img_course_size:hover {
+    opacity: 0.6;
+}
+.course_img_text {
+    margin-top: 21px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 31px;
+    color: #000000;
+}
+.course_container_all {
+    padding-right: 50px;
+}
+.img_course_size_all {
+    width: 450px;
+    height: 230px;
+}
+.course_img_text_all {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    padding-bottom: 3px;
+}
+.course_img_small_all {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #898989;
+    padding-bottom: 40px;
+}
+.button_courses {
+    width: 165px;
+    height: 40px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #898989;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+.social-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.img-flex1 {
+    width: 470px;
+    height: 845px;
+    padding-right: 30px;
+}
+.img-flex {
+    width: 470px;
+    height: 845px;
+}
+.day-offer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin:0px auto;
+    width: 1060px;
+    height: 240px;
+    background: url("day.jpg");
+}
+.day-offer-button {
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    background: #ffffff;
+    color: #000000;
+    width: 400px;
+    height: 56px;
+    line-height: 56px;
+    font-style: normal;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+}
+.day-offer-text {
+    padding-top: 30px;
+    font-family: Panton;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 92%;
+    text-align: center;
+    color: #FFFFFF;
+}
+.you-get-container{
+    width: 1200px;
+    height: 461px;
+    border-radius: 34px;
+    background: #E6D2D3;
+    display: flex;
+    flex-direction: row;
+}
+.you-get-img {
+    width: 650px;
+    height: 370px;
+    border-radius: 41px;
+    margin: 45px;
+}
+.you-get-header {
+    margin-top: 124px;
+    margin-bottom: 37px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 54px;
+    letter-spacing: -0.03em;
+    color: #000000;
+}
+.you-get-header-color {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 54px;
+    letter-spacing: -0.03em;
+    color: #FF5301;
+}
+.you-get-size-containter {
+    width: 387px;
+}
+.you-get-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+}
+.prepod-text {
+    margin-top: 73px;
+    margin-bottom: 32px;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 58px;
+    color: #000000;
+}
+.prepod-color {
+    color:#FF5301;
+}
+.category-bar {
+    width: 1450px;
+    height: 80px;
+    border-radius: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    background-color: #19202C;
+    margin-right: 53px;
+}
+.category-active{
+    color: #FF5301;
+    opacity: 1;
+    padding-right: 10px;
+}
+.category-bar a{
+    padding-right: 10px;
+    color: #FFFFFF;
+    text-decoration: none;
+    opacity: 0.5;
+}
+.wrapper{
+    margin: 0 auto;
+    margin-bottom: 52px;
+    width:1300px;
+    padding-top: 20px;
+    text-align:center;
+  }
+.regular{
+  width:90%;
+  margin:0px auto;
+}
+.slick-slide{
+    margin:10px;
+}
+.slick-prev {
+    left: -40px;
+}
+.slick-prev:before {
+    font-size: 36px;
+    color: #DBDBDB;
+}
+.slick-next:before {
+    font-size: 36px;
+    color: #DBDBDB;
+}
+.background-carousel { 
+    background: url("prepod1.png");
+    background-repeat: no-repeat;
+    background-size: 250px 350px;
+    border-radius: 20px;
+    width: 250px !important;
+    height: 300px;
+}
+/*Footer*/
+.site-footer {
+	position: relative;
+	background-color:#19202C;
+	width: 100%;	
+	bottom: 0; 
+}
+
+.site-footer .footer-container {
+	max-width: 85%;
+	margin: 0 135px 0 135px;
+	position: relative;
+	overflow: hidden;
+}
+.site-footer .grid-container a {
+	color: #ffffff;
+    text-decoration:none ;
+}
+.grid-item {
+    margin-top: 85px;
+	color: #ffffff;
+}
+.grid-item-colunm {
+    padding-bottom: 25px;
+    padding-right: 109px;
+    width: 60px;
+}
+.h1-grid-footer {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 31px;
+}
+.site-footer .grid-container {
+    display: grid;
+    column-gap: 150px;
+}
+.site-footer .grid-container .inner-grid-container {
+	display: grid;
+    column-gap: 109px;
+	grid-template-columns: auto auto auto;
+	text-align: left;
+}
+.site-footer .footer-container hr { 
+	display: block; 
+	opacity: 0.1;
+    border: 1px solid #FFFFFF;
+	margin: 1px; 
+	padding: 0; 
+}
+.site-footer .footer-container p {
+	font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+	text-align: right;
+	color: #ffffff;
+}
+.site-footer .footer-container .text-footer-1 {
+	width: 160px;
+	height: 60px;
+	cursor: pointer;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.site-footer .grid-container .grid-item .social-buttons a {
+	display: inline-flex;
+	text-decoration: none;
+    padding-left: 40px;
+	justify-content: right;
+	align-items: left;
+	position: relative;
+}
+.text-company-name {
+    padding-left: 65%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: right;
+}
+.offer-text{
+    display: flex;
+    flex-direction: row;
+    padding-top: 35px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+}
+.text-footer-fix {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    text-decoration: none;
+    margin-right: 20px;
+    color: #ffffff;
+}
+.vk-footer {
+    bottom: 4px;
+}
+
+/*------------------------------------------------------------------
+[ Screen Sizes] */
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+	.site-footer {
+		height: 620px;
+		bottom: 0; 
+	}
+
+	.site-footer .grid-container {
+		display: grid;
+		grid-template-columns: 400px;
+	}
+
+	.site-footer .grid-container .inner-grid-container {
+		display: grid;
+		grid-template-columns: auto auto ;
+		text-align: left;
+	}
+
+
+}
+
+/*========================================================*/
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+	.site-footer {
+		height: 350px;
+		bottom: 0;
+	}
+
+	.site-footer .grid-container {
+		display: grid;
+		grid-template-columns: 250px auto 250px;
+	}
+
+	.site-footer .grid-container .inner-grid-container{
+		display: grid;
+		grid-template-columns: auto auto auto;
+		text-align: left;
+	}
+}
+</style>
+</html>
